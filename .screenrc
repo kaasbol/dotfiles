@@ -1,0 +1,9 @@
+caption always "%{Rk}%H%{Kk}>>%{wk}%{-u} %-Lw%{Gk}%n%f %t%{-}%+Lw %=%{Kk}<<%{Rk}%D %M %d %c%-0<"
+altscreen on
+deflogin off
+defutf8 on
+hardstatus off
+vbell on
+termcapinfo * vb@
+term "screen-256color"
+startup_message off
